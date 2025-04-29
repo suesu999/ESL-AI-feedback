@@ -1,21 +1,23 @@
-# ESL AI Feedback Analysis 项目
+# ESL Writing Analytics with AI Feedback
 
-这是一个简单的学习分析项目，用Python语言分析高中学生如何使用ChatGPT生成的英语作文反馈。
+This project explores how high school ESL students interact with AI-generated writing feedback (ChatGPT).
 
-## 为什么做这个项目？
-想要了解不同英语水平的学生如何与AI反馈互动，是否能改善他们的英语写作水平。
+## Project Goal
+- Understand how students with different English proficiency levels engage with AI feedback.
+- Identify ways to improve student writing performance through targeted AI support.
 
-## 数据与工具
-- Google Docs版本历史记录
-- Coh-Metrix (文本分析工具)
-- PM4Py (过程分析工具)
+## Data & Tools
+- **Google Docs revision history** (students' essays and revisions)
+- **Coh-Metrix** (linguistic analysis tool)
+- **PM4Py** (process mining for revision patterns)
+- **Python** for data processing
 
-## 项目结构说明
-- `cohmetrix_analysis.py`：计算文本的Coh-Metrix指标
-- `pm4py_process.py`：分析学生修改作文的过程
+## Files in this Project
+- `cohmetrix_analysis.py`: Calculates linguistic metrics for student texts.
+- `pm4py_process.py`: Analyzes revision behaviors of students.
 
-## 怎么使用？
-下载代码到你电脑，然后运行:
+## How to Use
+Download or clone this repository, then run:
 ```bash
 pip install -r requirements.txt
 python cohmetrix_analysis.py
